@@ -22,16 +22,25 @@ Basic Installation
 
    Briefly, the shell command 'make' in src folder should install this program.
 
-   Dependencies: Raptor RDF Parser Library v.1.4  (for more information see: http://http://librdf.org/raptor/)
+   Dependencies: Raptor RDF Parser Library v.1.4  (for more information see: http://librdf.org/raptor/)
                  Libcds (included with the program)
 
 Execution
 =================
 
-./hdt[Options]
+./hdt [Options]
         -p --parse <config_file>              Parse data set within the given <config_file>
         -l --load <file>                      Load HDT structure into memory. Access triples console if serialize command is not given
-            -s --serialize [format]           Serialize the loaded HDT representation to a given format: ntriples (default), rdfxml, turtle, rdfxml-abbrev, rdfxml-xmp, atom, json-triples, json, dot
+            -s --serialize [format]           Serialize the loaded HDT representation to a given format: 
+						ntriples (default)
+						rdfxml
+						turtle
+						rdfxml-abbrev
+						rdfxml-xmp
+						atom
+						json-triples
+						json
+						dot
             -o --output <file>                   Serialize output (output.rdf by default)
         -h --help                             Show this help
         -c --console                          Entering console mode
